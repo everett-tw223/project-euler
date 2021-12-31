@@ -60,7 +60,7 @@ def prime_factorization(n):
     factor_list+=[n]
     return(factor_list)
 
-def numdivisors(input1):
+def divisor_count(input1):
     output=0
     if int(math.sqrt(input1))**2==input1:
         output+=1
@@ -78,4 +78,3 @@ def generate_triangle_number(input1):
         output+=i
         i+=1
     return output
-
